@@ -6,7 +6,8 @@
 
 ### Link para este workshop:
 
-<img src="assets/qr_code.png" alt="drawing" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/>
+
+<img src="assets/qr_code.png" alt="QRCode"/>
 
 ---
 
