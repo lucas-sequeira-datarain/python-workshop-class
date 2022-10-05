@@ -8,6 +8,7 @@ def test_collaborator_constructor():
     assert c1.age == 36
     assert c1.area == "Sales"
 
+
 def test_collaborator_introduce():
     """Tests the Collaborator class introduce method."""
     c1 = Collaborator("John", 36, "Sales")

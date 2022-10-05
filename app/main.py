@@ -21,3 +21,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# For running tests:
+# pytest ./app/ -v --cov=app/ --cov-report=html
+
+# For running lint on code:
+# flake8 --ignore E305,E501,E126 --exclude .git,__pycache__,.venv
