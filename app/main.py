@@ -11,8 +11,8 @@ def main():
     c5 = Collaborator("George", 32, "Sales")
 
     # Initialize the squads
-    s1 = Squad(name="Squad 1", collaborators=[c1, c2])
-    s2 = Squad(name="Squad 2", collaborators=[c3, c4, c5])
+    s1 = Squad(name="Squad ABC", collaborators=[c1, c2])
+    s2 = Squad(name="Squad XYZ", collaborators=[c3, c4, c5])
 
     # Print the squads
     print(s1.introduce())
