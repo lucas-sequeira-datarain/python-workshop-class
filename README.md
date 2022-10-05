@@ -4,9 +4,9 @@
 
 ---
 
-### Acesse este workshop em:
+### Link para este workshop:
 
-<img src="assets/qr_code.png" width="300px">
+![QRCode](assets/qr_code.png)
 
 ---
 
