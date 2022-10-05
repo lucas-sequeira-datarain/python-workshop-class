@@ -1,6 +1,10 @@
 # Python Workshop
 
-## Lucas Nunes Sequeira - AWS
+**Lucas Nunes Sequeira - AWS**
+
+### Acesse este workshop em:
+
+![QRCode](assets/qr_code.png)
 
 ---
 
