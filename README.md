@@ -6,7 +6,8 @@
 
 ### Link para este workshop:
 
-![QRCode](assets/qr_code.png)
+Add the qr_code image centralized
+<img src="assets/qr_code.png" alt="drawing" width="200" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/>
 
 ---
 
