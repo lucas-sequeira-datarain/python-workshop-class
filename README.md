@@ -121,6 +121,31 @@ c1.myfunc()
 >> Hello my name is Lucas and I work in Dev
 ```
 
-https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US/if-statements/lab-7/step-2
+### 8. Encapsulamento
 
-pytest ./app/ -v --cov=app/ --cov-report=html
+Encapsulamento é o conceito de esconder detalhes de implementação e mostrar apenas o necessário para o usuário. Em Python, não existe o conceito de encapsulamento, mas podemos usar convenções para indicar que um método ou atributo não deve ser acessado diretamente.
+
+```python
+class MyClass:
+    def __init__(self):
+        self.__hiddenVariable = 0
+
+    def add(self, increment):
+        self.__hiddenVariable += increment
+        print(self.__hiddenVariable)
+
+p = MyClass()
+print(p.__hiddenVariable)
+
+>> AttributeError: 'MyClass' object has no attribute '__hiddenVariable'
+
+print(p._MyClass__hiddenVariable)
+
+>> 0
+```
+
+### Algumas Referências
+
+- [W3 Schools - Python Classes/Objects](https://www.w3schools.com/python/python_classes.asp)
+- [AWS - Python Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US/variables)
+- [Arjan Codes - Python Development](https://www.youtube.com/c/ArjanCodes)
