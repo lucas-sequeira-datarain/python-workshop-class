@@ -178,4 +178,5 @@ print(p._MyClass__hiddenVariable)
 
 - [W3 Schools - Python Classes/Objects](https://www.w3schools.com/python/python_classes.asp)
 - [AWS - Python Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US/variables)
+- [PEP8 - Style Guide for Python Code](https://peps.python.org/pep-0008/)
 - [Arjan Codes - Python Development](https://www.youtube.com/c/ArjanCodes)
