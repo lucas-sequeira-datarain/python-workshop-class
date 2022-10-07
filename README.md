@@ -17,8 +17,6 @@ Python é uma linguagem de programação orientada a objetos.
 
 Quase tudo em Python é um objeto, com suas propriedades e métodos.
 
-Uma classe é como um construtor de objetos, ou um "projeto" para criar objetos.
-
 ```
 >>> import this
 The Zen of Python, by Tim Peters
@@ -48,7 +46,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ### 2. Definindo uma Classe
 
-Para definir uma classe, usamos a palavra-chave `class`:
+Uma classe é como um construtor de objetos, ou um "projeto" para criar objetos. Para definir uma classe, usamos a palavra-chave `class`:
 
 ```python
 class MyClass:
